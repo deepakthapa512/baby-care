@@ -32,7 +32,7 @@ export default function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav mx-auto">
-                            <a href="/home" className="nav-item nav-link active">Home</a>
+                            <a href="/" className="nav-item nav-link active">Home</a>
                             <a href="/home" className="nav-item nav-link">Shop</a>
                             <a href="/blog" className="nav-item nav-link">Blog</a>
                             <a href="/products" className="nav-item nav-link">LookBook</a>

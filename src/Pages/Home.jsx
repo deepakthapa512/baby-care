@@ -11,46 +11,46 @@ export default function Home() {
             <div className="container-fluid py-5 hero-header wow fadeIn text-center" data-wow-delay="0.1s">
                 <div className="container py-5">
                     <div className="row g-5">
-                    <div className="col-lg-7 col-md-12">
-    <h1 className="mb-3 text-pink">We Care Your Baby</h1>
-    <h1 className="mb-5 display-1 text-white">The Best Play Area For Your Kids</h1>
+                        <div className="col-lg-7 col-md-12">
+                            <h1 className="mb-3 text-pink">We Care Your Baby</h1>
+                            <h1 className="mb-5 display-1 text-white">The Best Play Area For Your Kids</h1>
 
-    {/* Button with Inline Dashed Border */}
-    <a 
-        href="" 
-        style={{
-            border: "2px dashed white",
-            backgroundColor: "#D63384",
-            color: "white",
-            padding: "12px 24px",
-            textDecoration: "none",
-            borderRadius: "8px",
-            display: "inline-block",
-            fontSize: "16px",
-            fontWeight: "bold",
-            marginRight: "16px"
-        }}
-    >
-        Shop Girls
-    </a>
+                            {/* Button with Inline Dashed Border */}
+                            <a
+                                href=""
+                                style={{
+                                    border: "2px dashed white",
+                                    backgroundColor: "#D63384",
+                                    color: "white",
+                                    padding: "12px 24px",
+                                    textDecoration: "none",
+                                    borderRadius: "8px",
+                                    display: "inline-block",
+                                    fontSize: "16px",
+                                    fontWeight: "bold",
+                                    marginRight: "16px"
+                                }}
+                            >
+                                Shop Girls
+                            </a>
 
-    <a 
-        href="" 
-        style={{
-            border: "2px dashed white",
-            backgroundColor: "#D63384",
-            color: "white",
-            padding: "12px 24px",
-            textDecoration: "none",
-            borderRadius: "8px",
-            display: "inline-block",
-            fontSize: "16px",
-            fontWeight: "bold"
-        }}
-    >
-        Shop Boys
-    </a>
-</div>
+                            <a
+                                href=""
+                                style={{
+                                    border: "2px dashed white",
+                                    backgroundColor: "#D63384",
+                                    color: "white",
+                                    padding: "12px 24px",
+                                    textDecoration: "none",
+                                    borderRadius: "8px",
+                                    display: "inline-block",
+                                    fontSize: "16px",
+                                    fontWeight: "bold"
+                                }}
+                            >
+                                Shop Boys
+                            </a>
+                        </div>
 
                     </div>
                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
                 </div>
             </div>
             <Products />
-            <GirlSection/>
+            <GirlSection />
             <Blog />
         </>
     )
